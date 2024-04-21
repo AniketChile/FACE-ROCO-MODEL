@@ -5,7 +5,7 @@ import numpy as np
 
 #Tensorflow Model Prediction
 def model_prediction(test_image):
-    model = tf.keras.models.load_model("trained_face_model.keras")
+    model = tf.keras.models.load_model("trained_face_model_og.keras")
     image = tf.keras.preprocessing.image.load_img(test_image,target_size=(256,256))
     input_arr = tf.keras.preprocessing.image.img_to_array(image)
     input_arr = np.array([input_arr]) #convert single image to batch
