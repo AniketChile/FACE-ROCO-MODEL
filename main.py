@@ -50,4 +50,4 @@ elif(app_mode=="FACE Recognition"):
         result_index = model_prediction(test_image)
         #Reading Labels
         class_name = ['ANIKET','ARJUN','OMKAR','POORVA']
-        st.success("Model is Predicting it's a {}".format(class_name[result_index]))
+        st.success("Model is Predicting it's  {}".format(class_name[result_index]))
