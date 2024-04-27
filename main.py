@@ -26,8 +26,7 @@ if(app_mode=="Home"):
     st.header("OUR VISION")
     st.markdown("""In a world where security is paramount and convenience is key, we envision a future where facial recognition technology seamlessly integrates into everyday life, providing secure and frictionless experiences for all.
     """)
-    if st.button('TRY NOW!'):
-        app_mode = "FACE Recognition"
+ 
 
 #About Project
 elif(app_mode=="About"):
@@ -83,8 +82,8 @@ Interested in learning more about our facial recognition system? Contact us toda
                 """)
 
 #Prediction Page
-elif(app_mode=="FACE Recognition"):
-    st.header("FACE Recognition")
+elif(app_mode=="DRONEFACE.AI"):
+    st.header("DRONEFACE.AI")
     test_image = st.file_uploader("Choose an Image:")
     if(st.button("Show Image")):
         st.image(test_image,width=4,use_column_width=True)
