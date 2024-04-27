@@ -14,7 +14,7 @@ def model_prediction(test_image):
 
 #Sidebar
 st.sidebar.title("Dashboard")
-app_mode = st.sidebar.selectbox("Select Page",["Home","About","FACE Recognition"])
+app_mode = st.sidebar.selectbox("Select Page",["Home","About","DRONEFACE.AI"])
 
 #Main Page
 if(app_mode=="Home"):
